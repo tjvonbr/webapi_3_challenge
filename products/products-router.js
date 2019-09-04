@@ -10,7 +10,7 @@ router.use(express.json());
 // GET to /products/
 router.get('/', (req, res) => {
   res.send('get to /products/')
-})
+});
 
 // GET to /products/:id
 router.get('/:id', (req, res) => {
